@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import Principal from "./pages/Principal";
+
+
 
 export default function App() {
   return (
@@ -17,6 +20,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/principal" element={<Principal />} />
             {/* Add more routes here as needed */}
           </Routes>
         </main>
