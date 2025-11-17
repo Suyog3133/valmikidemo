@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Principal from "./pages/Principal";
+import Introduction from "./pages/Introduction";
 
 
 
@@ -21,6 +22,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/principal" element={<Principal />} />
+            <Route path="/introduction" element={<Introduction />} />
             {/* Add more routes here as needed */}
           </Routes>
         </main>
